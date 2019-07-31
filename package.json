@@ -1,0 +1,22 @@
+{
+  "name": "smuldesign",
+  "version": "1.0.0",
+  "description": "A website for SmulDesign",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smuldesign/Smuldesign.git"
+  },
+  "author": "Smuldesign.nl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smuldesign/Smuldesign/issues"
+  },
+  "homepage": "https://github.com/smuldesign/Smuldesign#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
