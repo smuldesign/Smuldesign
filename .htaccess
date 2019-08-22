@@ -9,3 +9,5 @@ DirectoryIndex index.php
 
 #404 page
 ErrorDocument 404 /404.php
+
+SetEnv BASE_PATH https://smuldesign.nl/

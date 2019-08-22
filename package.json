@@ -4,7 +4,9 @@
   "description": "A website for SmulDesign",
   "main": "index.php",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-css": "node-sass --include-path scss assets/scss/style.scss style.css",
+    "watch-css": "nodemon -e scss -x \\”npm run build-css\\",
+    "debuggingCommit": "git add . && git commit -m 'debugging' && git push"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/smuldesign/Smuldesign#readme",
   "dependencies": {
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.19.1"
   }
 }
